@@ -7,4 +7,5 @@ def count_times(a, b):
             c += 1
     return c
 
+
 print(count_times([1, 2, 3, 5, 2, 7, 2, 2], 2))
