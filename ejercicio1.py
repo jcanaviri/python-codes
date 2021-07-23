@@ -5,7 +5,7 @@ def prime_factors(num):
     i = 0
     divisors = []
     while num != 1:
-        # if a is divisible by a prime
+        # if num is divisible by a prime
         if num % primes[i] == 0:
             num //= primes[i]
             divisors.append(primes[i])
@@ -14,4 +14,4 @@ def prime_factors(num):
     return divisors
 
 
-print(prime_factors(13))
+print(prime_factors(25))
