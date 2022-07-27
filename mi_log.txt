@@ -1,4 +1,0 @@
-2021-07-23 09:52:11.887438 Iniciando registro de errores
-2021-07-23 09:52:11.887438 ERROR: no se pudo acceder al recurso
-2021-07-23 09:52:11.887438 ERROR: formato de entrada invalido
-2021-07-23 09:52:11.887438 Fin del registro de errores
