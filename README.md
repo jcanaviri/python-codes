@@ -1,3 +1,3 @@
-# Ejercicios de Python 🐍
+# Python exercises 🐍
 
-Algunos ejemplos de programación en Python
+Some programming exercises in Python Language
