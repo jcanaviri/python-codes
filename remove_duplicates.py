@@ -1,0 +1,13 @@
+from typing import List
+
+
+def remove_duplicates(lst: List[int]) -> List[int]:
+    cleaned_list = []
+    for item in lst:
+        if item not in cleaned_list:
+            cleaned_list.append(item)
+    return cleaned_list
+
+
+without_duplicates = remove_duplicates([1, 2, 3, 2, 1, 4, 5, 4])
+print(without_duplicates)  # Output [1, 2, 3, 4, 5]
