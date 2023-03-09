@@ -124,7 +124,16 @@ region2 = filtrar_puntos(puntos, origen2, distancia)
 elementos_no_comunes = obtener_fuera_interseccion(region1, region2)
 
 # Creamos el archivo no_comunes.data e insertamos los no comunes
-with open('./no_comunes.data', mode='w') as archivo:
+with open("./no_comunes.data", mode="w") as archivo:
     for elemento in elementos_no_comunes:
-        cadena = elemento[0] + '#' + elemento[1] + '#' + str(elemento[2]) + '#' + str(elemento[3]) + '\n'
+        cadena = (
+            elemento[0]
+            + "#"
+            + elemento[1]
+            + "#"
+            + str(elemento[2])
+            + "#"
+            + str(elemento[3])
+            + "\n"
+        )
         archivo.write(cadena)

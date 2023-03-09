@@ -1,5 +1,5 @@
 def calcular_es_subconjunto(conjunto1, conjunto2):
-    """Funcion que returnara un valor booleano Verdadero si un conjunto es subconjunto 
+    """Funcion que returnara un valor booleano Verdadero si un conjunto es subconjunto
     del otro y Falso en caso contrario"""
 
     # Calculamos cual es el conjunto más pequeño
@@ -18,17 +18,18 @@ def calcular_es_subconjunto(conjunto1, conjunto2):
                 return False
         return True
 
+
 conjunto1 = [1, 2, 3]
 conjunto2 = [4, 5, 6]
 
-print(calcular_es_subconjunto(conjunto1, conjunto2)) # False
+print(calcular_es_subconjunto(conjunto1, conjunto2))  # False
 
 conjunto1 = [1, 2, 3]
 conjunto2 = [4, 5, 6, 1, 2, 3]
 
-print(calcular_es_subconjunto(conjunto1, conjunto2)) # True
+print(calcular_es_subconjunto(conjunto1, conjunto2))  # True
 
 conjunto1 = [1, 2, 3, 4, 5, 6]
 conjunto2 = [4, 5, 6]
 
-print(calcular_es_subconjunto(conjunto1, conjunto2)) # True
+print(calcular_es_subconjunto(conjunto1, conjunto2))  # True

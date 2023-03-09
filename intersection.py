@@ -15,6 +15,7 @@ def find_simetric_difference(list1, list2):
     set2 = set(list2)
     return list(set1.symmetric_difference(set2))
 
+
 list1 = [1, 2, 3]
 list2 = [1, 5, 3]
 difference = find_simetric_difference(list1, list2)
